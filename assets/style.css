@@ -49,13 +49,14 @@ display: block;
 .navbar-middle {
     display: flex;
     align-items: center;
-    gap: 25px;
+    gap: 35px;
 }
 
 .navbar-middle a {
     color: white;
     text-decoration: none;
-    font-size: 11px;
+    font-size: 15px;
+    line-height: 27.75px;
 }
 
 .navbar-middle i {
@@ -65,7 +66,9 @@ display: block;
 .navbar-right {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     gap: 25px;
+   
 }
 
 .navbar-right span {
@@ -77,44 +80,66 @@ display: block;
 }
 
 .navbar-right button {
-    padding: 8px 18px;
+    padding: 12px 22px;
     border: 1px solid white;
-    border-radius: 20px;
+    border-radius: 16px;
     background: transparent;
     color: white;
     font-size: 10px;
+   
 }
 .tabpanel-left {
     position: absolute;
     left: 17%;
-    top: 46%;
+    top: 40%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.b-div1 b{
+.b-div1 p{
 font-size: 40px;
+font-weight: bold;
 }
 
-.b-div2 b{
+.b-div2 p{
     font-size: 70px;
     line-height: 84px;
 }
 .tabpanel-right {
     position: absolute;
     right: 6%;
-    top: 110px;
+    top: 120px;
 }
+.tabpanel-right ul {
+  list-style: none;
 
+}
+.tabpanel-right li{
+    margin-bottom: 15px;
+}
 .mashinahaqida {
-    width: 170px;
-    height: 440px;
-
+    width: 255.16px;
+    height: 564.75px;
     padding: 30px 25px;
-
-    background: rgba(255, 255, 255, 0.13);
-    border-radius: 10px;
-
-    backdrop-filter: blur(5px);
+    border-radius: 16px;
+  background:  rgba(255, 255, 255, 0.1);
+  
+}
+.mashinahaqida button {
+    width: 155.16px;
+    height: 116.65px;
+    border: none;
+    border-radius: 16px;
+    background: white;
+    color:#050B20;
+    font-size: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 15px;
+    line-height: 27.25px;
+    margin-top: 20px;
+    margin-left: 15px;
 }
