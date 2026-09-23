@@ -71,21 +71,22 @@ display: block;
    
 }
 
-.navbar-right span {
-    font-size: 11px;
-}
 
-.navbar-right span i {
+
+.navbar-middle span i {
+    font-size: 15px;
     margin-right: 5px;
 }
 
 .navbar-right button {
-    padding: 12px 22px;
+    padding: 13px 25px;
     border: 1px solid white;
     border-radius: 16px;
     background: transparent;
     color: white;
-    font-size: 10px;
+    font-size: 13px;
+    width: 142px;
+    height: 42px;
    
 }
 .tabpanel-left {
@@ -105,6 +106,14 @@ font-weight: bold;
 .b-div2 p{
     font-size: 70px;
     line-height: 84px;
+}
+
+.line1 p{
+margin-top: 130px;
+font-size: 15px;
+font-weight: bold;
+line-height: 27.75px;
+
 }
 .tabpanel-right {
     position: absolute;
@@ -133,7 +142,6 @@ font-weight: bold;
     border-radius: 16px;
     background: white;
     color:#050B20;
-    font-size: 10px;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
