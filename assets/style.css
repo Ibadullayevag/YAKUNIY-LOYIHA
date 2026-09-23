@@ -1,3 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
 body {
     font-family: "DM Sans", sans-serif;
+}
+
+.main{
+    width: 100%;
+    height:730px;
+    background-image: url(./img/main-car.jpg ) ;
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   color: white;
+  
+}
+.navbar {
+    width: 100%;
+    height: 80px;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    color: white;
+
+}
+.navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar-left img{
+width: 168px;
+height: 112px;
+display: block;
+}
+.navbar-left span {
+    font-size: 11px;
+}
+
+.navbar-left i {
+    margin-right: 7px;
+}
+.navbar-middle {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.navbar-middle a {
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.navbar-middle i {
+    font-size: 7px;
+    margin-left: 5px;
+}
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.navbar-right span {
+    font-size: 11px;
+}
+
+.navbar-right span i {
+    margin-right: 5px;
+}
+
+.navbar-right button {
+    padding: 8px 18px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background: transparent;
+    color: white;
+    font-size: 10px;
+}
+.tabpanel-left {
+    position: absolute;
+    left: 17%;
+    top: 46%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.b-div1 b{
+font-size: 40px;
+}
+
+.b-div2 b{
+    font-size: 70px;
+    line-height: 84px;
+}
+.tabpanel-right {
+    position: absolute;
+    right: 6%;
+    top: 110px;
+}
+
+.mashinahaqida {
+    width: 170px;
+    height: 440px;
+
+    padding: 30px 25px;
+
+    background: rgba(255, 255, 255, 0.13);
+    border-radius: 10px;
+
+    backdrop-filter: blur(5px);
 }
