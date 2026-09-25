@@ -215,7 +215,95 @@ line-height: 27.75px;
 
 
 
+.cars {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    margin-top: 35px;
+    scroll-behavior: smooth;
+}
 
+.car1 {
+    min-width: calc(50% - 10px);
+    height: 190px;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #34394b;
+}
+
+.car1 > img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.car-info {
+    width: 50%;
+    padding: 15px;
+    color: white;
+}
+
+.tcross p {
+    margin: 0 0 7px;
+    font-size: 14px;
+}
+
+.tcross span {
+    font-size: 8px;
+    color: #ddd;
+}
+
+.tezlik-benzin {
+    display: flex;
+    gap: 12px;
+    margin-top: 18px;
+}
+
+.tezlik-benzin .div {
+    text-align: center;
+}
+
+.tezlik-benzin i {
+    font-size: 11px;
+}
+
+.tezlik-benzin p {
+    font-size: 7px;
+    margin: 4px 0 0;
+}
+
+.narx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.narx p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.narx span {
+    font-size: 8px;
+}
+
+.strelkalar {
+    display: flex;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.strelkalar button {
+    width: 38px;
+    height: 38px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+}
 
 
 
