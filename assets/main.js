@@ -1,11 +1,5 @@
-const cars = document.querySelector(".cars");
-const left = document.querySelector("#left");
-const right = document.querySelector("#right");
+const track = document.getElementById("track");
+const prevBtn = document.getElementById("prevBtn");
+const nextBtn = document.getElementById("nextBtn");
+const card = document.querySelectorAll(".car1")
 
-right.onclick = function () {
-    cars.scrollLeft += cars.clientWidth;
-};
-
-left.onclick = function () {
-    cars.scrollLeft -= cars.clientWidth;
-};

@@ -78,6 +78,16 @@ display: block;
     margin-right: 5px;
 }
 
+
+.darkmode button{
+background: transparent;
+border: 1px solid white;
+padding: 5px 8px;
+border-radius: 15px;
+}
+
+
+
 .navbar-right button {
     padding: 13px 25px;
     border: 1px solid white;
@@ -225,3 +235,107 @@ line-height: 27.75px;
 
 
 
+.cars {
+    width: 100%;
+    display: flex;
+    gap: 24px;
+    padding: 0;
+    margin: 0;
+   
+}
+
+.car1 {
+    width: 685px;
+    min-width: 685px;
+    height: 273.72px;
+    display: flex;
+    border-radius: 16px;
+    overflow: hidden;
+    background-color: rgba(55, 57, 72, 1);
+}
+
+.car1 >img {
+    width: 284px;
+    min-width: 284px;
+    height: 273.72px;
+    display: block;
+}
+
+
+.car-info {
+    width: 401px;
+    height: 273.72px;
+    padding: 24px 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #373848;
+    color: white;
+}
+
+
+.tcross p {
+    margin: 0 0 7px 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+.tcross span {
+    display: block;
+    font-size: 11px;
+    color: #d4d4d4;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.tezlik-benzin {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tezlik-benzin .div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tezlik-benzin .div i {
+    width: 16px;
+    font-size: 14px;
+    color: white;
+}
+
+.tezlik-benzin .div p {
+    margin: 0;
+    font-size: 12px;
+    color: white;
+}
+
+
+.narx {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.narx p {
+    margin: 0;
+
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.narx span {
+    font-size: 12px;
+    color: white;
+}
+
+
+.strelkalar button{
+   padding: 12px 18px;
+   border: 1px solid rgba(233, 233, 233, 1);
+}
