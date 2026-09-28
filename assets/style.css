@@ -1,348 +1,317 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box ;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
-    font-family: "DM Sans", sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 
-.main{
-    width: 100%;
-    height:730px;
-    background-image: url(./img/main-car.jpg ) ;
-   background-position: center;
-   background-size: cover;
-   position: relative;
-   color: white;
-  
+.main {
+  width: 100%;
+  height: 730px;
+  background-image: url(./img/main-car.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
 }
 .navbar {
-    width: 100%;
-    height: 80px;
-    padding: 0 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: absolute;
-    color: white;
-
+  width: 100%;
+  height: 80px;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  color: white;
 }
 .navbar-left {
-    display: flex;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
-.navbar-left img{
-width: 168px;
-height: 112px;
-display: block;
+.navbar-left img {
+  width: 168px;
+  height: 112px;
+  display: block;
 }
 .navbar-left span {
-    font-size: 11px;
+  font-size: 11px;
 }
 
 .navbar-left i {
-    margin-right: 7px;
+  margin-right: 7px;
 }
 .navbar-middle {
-    display: flex;
-    align-items: center;
-    gap: 35px;
+  display: flex;
+  align-items: center;
+  gap: 35px;
 }
 
 .navbar-middle a {
-    color: white;
-    text-decoration: none;
-    font-size: 15px;
-    line-height: 27.75px;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 27.75px;
 }
 
 .navbar-middle i {
-    font-size: 7px;
-    margin-left: 5px;
+  font-size: 7px;
+  margin-left: 5px;
 }
 .navbar-right {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 25px;
-   
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 25px;
 }
-
-
 
 .navbar-middle span i {
-    font-size: 15px;
-    margin-right: 5px;
+  font-size: 15px;
+  margin-right: 5px;
 }
 
-
-.darkmode button{
-background: transparent;
-border: 1px solid white;
-padding: 5px 8px;
-border-radius: 15px;
+.darkmode button {
+  background: transparent;
+  border: 1px solid white;
+  padding: 5px 8px;
+  border-radius: 15px;
 }
-
-
 
 .navbar-right button {
-    padding: 13px 25px;
-    border: 1px solid white;
-    border-radius: 16px;
-    background: transparent;
-    color: white;
-    font-size: 13px;
-    width: 142px;
-    height: 42px;
-   
+  padding: 13px 25px;
+  border: 1px solid white;
+  border-radius: 16px;
+  background: transparent;
+  color: white;
+  font-size: 13px;
+  width: 142px;
+  height: 42px;
 }
 .tabpanel-left {
-    position: absolute;
-    left: 17%;
-    top: 40%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  position: absolute;
+  left: 17%;
+  top: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.b-div1 p{
-font-size: 40px;
-font-weight: bold;
+.b-div1 p {
+  font-size: 40px;
+  font-weight: bold;
 }
 
-.b-div2 p{
-    font-size: 70px;
-    line-height: 84px;
+.b-div2 p {
+  font-size: 70px;
+  line-height: 84px;
 }
 
-.line1 p{
-margin-top: 130px;
-font-size: 15px;
-font-weight: bold;
-line-height: 27.75px;
-
+.line1 p {
+  margin-top: 130px;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 27.75px;
 }
 .tabpanel-right {
-    position: absolute;
-    right: 6%;
-    top: 120px;
+  position: absolute;
+  right: 6%;
+  top: 120px;
 }
 .tabpanel-right ul {
   list-style: none;
-
 }
-.tabpanel-right li{
-    margin-bottom: 15px;
+.tabpanel-right li {
+  margin-bottom: 15px;
 }
 .mashinahaqida {
-    width: 255.16px;
-    height: 564.75px;
-    padding: 30px 25px;
-    border-radius: 16px;
-  background:  rgba(255, 255, 255, 0.1);
-  
+  width: 255.16px;
+  height: 564.75px;
+  padding: 30px 25px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.1);
 }
 .mashinahaqida button {
-    width: 155.16px;
-    height: 116.65px;
-    border: none;
-    border-radius: 16px;
-    background: white;
-    color:#050B20;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    padding: 15px;
-    font-size: 15px;
-    line-height: 27.25px;
-    margin-top: 20px;
-    margin-left: 15px;
+  width: 155.16px;
+  height: 116.65px;
+  border: none;
+  border-radius: 16px;
+  background: white;
+  color: #050b20;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 15px;
+  font-size: 15px;
+  line-height: 27.25px;
+  margin-top: 20px;
+  margin-left: 15px;
 }
-
 
 /*main2*/
 
-.explore-view{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 95px;
+.explore-view {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 95px;
 }
 
-.explore{
-    font-size: 40px;
-    line-height: 40px;
-    margin-left: 260px;
-
+.explore {
+  font-size: 40px;
+  line-height: 40px;
+  margin-left: 260px;
 }
-.view{
-    font-size: 15px;
-    line-height: 15px;
-    font-style: medium;
-    margin-right: 270px;
+.view {
+  font-size: 15px;
+  line-height: 15px;
+  font-style: medium;
+  margin-right: 270px;
 }
-
-
 
 .tablist {
-    display: flex;
-    gap: 25px;
-    margin-top: 40px;
-    margin-bottom: 30px;
-   margin-left: 260px;
-
+  display: flex;
+  gap: 25px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  margin-left: 260px;
 }
 
 .benom,
 .newcars,
 .usedcars {
-    font-size: 11px;
-    color: rgba(5, 11, 32, 1);
+  font-size: 11px;
+  color: rgba(5, 11, 32, 1);
 }
 
 .benom {
-    color: rgba(5, 11, 32, 1);
+  color: rgba(5, 11, 32, 1);
 }
 
 .chiziq {
-    width: 55px;
-    height: 2px;
-    background-color: rgba(64, 95, 242, 1);
-    margin-top: 10px;
+  width: 55px;
+  height: 2px;
+  background-color: rgba(64, 95, 242, 1);
+  margin-top: 10px;
 }
 
 .uzun-chiziq {
-    width: 100%;
-    height: 1px;
-    background-color: rgb(185, 184, 184);
-    margin-top: -32px;
-    width: 100%;
-    height: 1px;
-    
+  width: 100%;
+  height: 1px;
+  background-color: rgb(185, 184, 184);
+  margin-top: -32px;
+  width: 100%;
+  height: 1px;
 }
 
-
-
-
-
-
 .cars-ota-div {
-    margin-top: 40px;
-  width: 100%;
+  margin: 40px 250px;
+  width: 1270px;
   overflow: hidden;
 }
 
-
-
-
 .cars {
-    width: 100%;
-    display: flex;
-    gap: 24px;
-    padding: 0;
-    margin: 0;
+  width: 100%;
+  display: flex;
+  gap: 24px;
+  padding: 0;
+  margin: 0;
   transition: transform 0.5s;
 }
 
 .car1 {
-    width: 685px;
-    min-width: 685px;
-    height: 273.72px;
-    display: flex;
-    border-radius: 16px;
-    overflow: hidden;
-    background-color: rgba(55, 57, 72, 1);
+  width: 685px;
+  min-width: 685px;
+  height: 273.72px;
+  display: flex;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: rgba(55, 57, 72, 1);
 }
 
-.car1 >img {
-    width: 284px;
-    min-width: 284px;
-    height: 273.72px;
-    display: block;
+.car1 > img {
+  width: 284px;
+  min-width: 284px;
+  height: 273.72px;
+  display: block;
 }
-
 
 .car-info {
-    width: 401px;
-    height: 273.72px;
-    padding: 24px 26px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: #373848;
-    color: white;
+  width: 401px;
+  height: 273.72px;
+  padding: 24px 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #373848;
+  color: white;
 }
 
-
 .tcross p {
-    margin: 0 0 7px 0;
-    font-size: 16px;
-    font-weight: 500;
-    color: white;
+  margin: 0 0 7px 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
 }
 
 .tcross span {
-    display: block;
-    font-size: 11px;
-    color: rgba(255, 255, 255, 1);
-    overflow: hidden;
-    text-overflow: ellipsis;
+  display: block;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 1);
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .tezlik-benzin {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .tezlik-benzin .div {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .tezlik-benzin .div i {
-    width: 16px;
-    font-size: 14px;
-    color: white;
+  width: 16px;
+  font-size: 14px;
+  color: white;
 }
 
 .tezlik-benzin .div p {
-    margin: 0;
-    font-size: 12px;
-    color: white;
+  margin: 0;
+  font-size: 12px;
+  color: white;
 }
 
-
 .narx {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .narx p {
-    margin: 0;
-    font-size: 18px;
-    font-weight: 600;
-    color: white;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
 }
 
 .narx span {
-    font-size: 12px;
-    color: white;
+  font-size: 12px;
+  color: white;
 }
 
-
-.strelkalar{
-    margin-left: 245px;
+.strelkalar {
+  margin-left: 245px;
 }
 
-.strelkalar button{
-    margin-top: 30px;
-   padding: 10px 16px;
-   border: 1px solid rgb(203, 202, 202);
-   border-radius: 18px;
-   
+.strelkalar button {
+  margin-top: 30px;
+  padding: 10px 16px;
+  border: 1px solid rgb(203, 202, 202);
+  border-radius: 18px;
 }
