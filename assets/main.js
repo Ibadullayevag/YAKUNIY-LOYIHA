@@ -24,8 +24,6 @@ prevBtn.addEventListener("click", () => {
 function updateCarousel() {
   const cardWidth = card[0].offsetWidth;
   const gap = 20;
-
   const moveAmount = -currentIndex * (cardWidth + gap);
-
   track.style.transform = `translateX(${moveAmount}px)`;
 }

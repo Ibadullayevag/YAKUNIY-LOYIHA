@@ -285,8 +285,7 @@ line-height: 27.75px;
 .tcross span {
     display: block;
     font-size: 11px;
-    color: #d4d4d4;
-    white-space: nowrap;
+    color: rgba(255, 255, 255, 1);
     overflow: hidden;
     text-overflow: ellipsis;
 }
@@ -324,7 +323,6 @@ line-height: 27.75px;
 
 .narx p {
     margin: 0;
-
     font-size: 18px;
     font-weight: 600;
     color: white;
