@@ -318,9 +318,7 @@ body {
 
 
 .main3 {
-  width: 100%;
   padding: 50px 60px;
-  background-color: #f7f8fa;
   border-radius: 15px;
   margin-left: 200px;
 }
@@ -341,22 +339,24 @@ body {
 
 .text {
 width: 311px;
+height: 300px;
 }
 
 .text img {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   object-fit: contain;
   margin-bottom: 15px;
 }
 
 .text h3 {
-  font-size: 14px;
+  font-size: 17px;
+  font-style: medium;
   margin-bottom: 10px;
 }
 
 .text p {
   font-size: 12px;
-  line-height: 1.6;
-  color: #777;
+  line-height: 27.75px;
+  color: rgba(5, 11, 32, 1);
 }
