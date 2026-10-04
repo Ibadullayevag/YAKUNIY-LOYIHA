@@ -829,40 +829,40 @@ font-size: 20px;
 }
 
 .main10-text {
-    position: absolute;
-    top: 90px;
-    left: 140px;
-    color: white;
+position: absolute;
+top: 170px;
+left: 140px;
+color: white;
 }
 
 .main10-text h1 {
-    font-size: 32px;
-    line-height: 1.2;
-    margin: 0 0 25px 0;
+font-size: 40px;
+line-height: 1.2;
+margin: 0 0 25px 0;
 }
 
 .main10-text p {
-    font-size: 13px;
-    line-height: 22px;
-    margin: 0 0 25px 0;
+font-size: 13px;
+line-height: 22px;
+margin: 0 0 25px 0;
 }
 
 .apps {
-    display: flex;
-    gap: 20px;
+display: flex;
+gap: 20px;
 }
 
 .app-btn {
-    width: 145px;
-    height: 45px;
-    background-color: white;
-    border: none;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 0 15px;
-    color: #4261f5;
+  width: 145px;
+  height: 45px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 15px;
+  color: #4261f5;
 }
 
 .app-btn i {
@@ -870,13 +870,13 @@ font-size: 20px;
 }
 
 .app-btn span {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    font-size: 11px;
-    line-height: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 11px;
+  line-height: 14px;
 }
 
 .app-btn small {
-    font-size: 8px;
+font-size: 8px;
 }
