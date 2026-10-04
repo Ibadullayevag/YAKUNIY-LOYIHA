@@ -779,3 +779,26 @@ margin-left: 10px;
   padding-top: 20px;
  
 }
+
+.odamlar{
+  display: flex;
+  margin-left: 230px;
+  margin-top: 30px;
+}
+
+.odam{
+  width: 285px;
+
+}
+.odam img{
+  width: 267px;
+  height: 328px;
+}
+
+.odam b{
+font-size: 20px;
+}
+.odam p{
+  font-size: 14px;
+  color: rgba(5, 11, 32, 1);
+}
