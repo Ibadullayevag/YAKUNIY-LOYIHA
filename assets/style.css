@@ -908,15 +908,18 @@ font-size: 8px;
 .bmwlar {
     display: flex;
     gap: 16px;
+    margin-top: 40px;
+    margin-left: 240px;
 }
 
 .bmw {
-    width: 450px;
+    width: 350px;
+    height: 310px;
 }
 
 .bmw-img {
-    width: 100%;
-    height: 145px;
+    width: 350px;
+    height: 238px;
     position: relative;
     overflow: hidden;
     border-radius: 10px;
@@ -945,8 +948,9 @@ font-size: 8px;
     color: #475467;
 }
 
-.bmw h3 {
+.bmw p {
     margin-top: 8px;
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 30px;
+    font-style: medium;
 }
