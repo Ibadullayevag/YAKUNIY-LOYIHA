@@ -380,7 +380,7 @@ height: 300px;
   font-size: 15px;
   line-height: 15px;
   font-style: medium;
-  margin-right: 270px;
+  margin-right: 230px;
   padding-top: 20px;
 }
 
@@ -393,27 +393,27 @@ height: 300px;
 }
 
 .suv {
-    width: 577px;
-    height: 349.48px;
+    width: 547px;
+    height: 329.48px;
 }
 
 .sedan {
-    width: 577px;
-    height: 349.48px;
+    width: 547px;
+    height: 329.48px;
 }
 
 .hatchback {
-    width: 379.67px;
+    width: 359.67px;
     height: 348.95px;
 }
 
 .hybrid {
-    width: 379.67px;
+    width: 359.67px;
     height: 348.95px;
 }
 
 .coupe {
-    width: 379.67px;
+    width: 359.67px;
     height: 348.95px;
 }
 
@@ -552,3 +552,29 @@ height: 216px;
   color: rgba(5, 11, 32, 1);
 }
 
+/*main6*/
+
+.explore-show{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 115px;
+}
+
+.explore2 {
+  font-size: 40px;
+  line-height: 40px;
+  margin-left: 260px;
+
+}
+.show {
+  font-size: 15px;
+  line-height: 15px;
+  font-style: medium;
+  margin-right: 210px;
+  padding-top: 20px;
+ 
+}
+
+.show  i{
+margin-left: 10px;
+}
