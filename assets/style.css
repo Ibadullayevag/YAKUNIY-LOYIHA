@@ -668,3 +668,27 @@ margin-left: 10px;
 .canculate i {
     margin-left: 5px;
 }
+
+
+/*main8*/
+
+.what-rated{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 115px;
+}
+
+.what {
+  font-size: 40px;
+  line-height: 40px;
+  margin-left: 260px;
+
+}
+.rated {
+  font-size: 15px;
+  line-height: 15px;
+  font-style: medium;
+  margin-right: 210px;
+  padding-top: 20px;
+ 
+}
