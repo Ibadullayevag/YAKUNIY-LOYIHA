@@ -880,3 +880,73 @@ gap: 20px;
 .app-btn small {
 font-size: 8px;
 }
+
+
+/*main11*/
+
+.latest-view{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 115px;
+}
+
+.latest {
+  font-size: 40px;
+  line-height: 40px;
+  margin-left: 260px;
+
+}
+.viewww{
+  font-size: 15px;
+  line-height: 15px;
+  font-style: medium;
+  margin-right: 210px;
+  padding-top: 20px;
+ 
+}
+
+.bmwlar {
+    display: flex;
+    gap: 16px;
+}
+
+.bmw {
+    width: 450px;
+}
+
+.bmw-img {
+    width: 100%;
+    height: 145px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.bmw-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bmw-img span {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    background-color: white;
+    padding: 7px 12px;
+    border-radius: 20px;
+    font-size: 10px;
+}
+
+.bmw small {
+    display: block;
+    margin-top: 12px;
+    font-size: 9px;
+    color: #475467;
+}
+
+.bmw h3 {
+    margin-top: 8px;
+    font-size: 13px;
+    line-height: 20px;
+}
