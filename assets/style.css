@@ -692,3 +692,90 @@ margin-left: 10px;
   padding-top: 20px;
  
 }
+
+
+
+.comments-ota-div {
+   margin-left: 230px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.comments {
+    display: flex;
+    gap: 16px;
+    transition: transform 0.5s;
+}
+
+.comment {
+    width: 328px;
+    height: 214px;
+    flex-shrink: 0;
+    background-color: #f9fafc;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.comment span {
+    font-size: 11px;
+    color: #777b8a;
+}
+
+.comment span i {
+    color: #00b67a;
+}
+
+.comment b {
+    display: block;
+    margin-top: 12px;
+    font-size: 16px;
+    color: rgba(5, 11, 32, 1);
+}
+
+.comment p {
+    font-size: 10px;
+    line-height: 17px;
+    color: #4b5563;
+    margin-top: 8px;
+}
+
+.comment h4 {
+    font-size: 14px;
+    color: rgba(5, 11, 32, 1);
+    margin-top: 12px;
+}
+
+#star{
+  color: #777;
+}
+
+.comment span:nth-child(2) i {
+    color:rgba(108, 108, 131, 1);
+    margin-left: 10px;
+}
+
+
+
+
+/*main9*/
+
+.our-view{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 115px;
+}
+
+.our {
+  font-size: 40px;
+  line-height: 40px;
+  margin-left: 260px;
+
+}
+.vieww{
+  font-size: 15px;
+  line-height: 15px;
+  font-style: medium;
+  margin-right: 210px;
+  padding-top: 20px;
+ 
+}

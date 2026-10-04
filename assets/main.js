@@ -2,6 +2,11 @@ const track = document.querySelector(".cars");
 const prevBtn = document.getElementById("left");
 const nextBtn = document.getElementById("right");
 const card = document.querySelectorAll(".car1");
+const commentTrack = document.querySelector(".comments");
+const commentPrevBtn = document.getElementById("comment-left");
+const commentNextBtn = document.getElementById("comment-right");
+const comments = document.querySelectorAll(".comment");
+;
 
 const cardLength = card.length;
 
@@ -26,4 +31,31 @@ function updateCarousel() {
   const gap = 20;
   const moveAmount = -currentIndex * (cardWidth + gap);
   track.style.transform = `translateX(${moveAmount}px)`;
+}
+
+
+
+const commentLength = comments.length;
+
+let commentIndex = 0;
+
+commentNextBtn.addEventListener("click", () => {
+  if (commentIndex < commentLength - 2) {
+    commentIndex++;
+    updateComments();
+  }
+});
+
+commentPrevBtn.addEventListener("click", () => {
+  if (commentIndex > 0) {
+    commentIndex--;
+    updateComments();
+  }
+});
+
+function updateComments() {
+  const commentWidth = comments[0].offsetWidth;
+  const gap = 16;
+  const moveAmount = -commentIndex * (commentWidth + gap);
+  commentTrack.style.transform = `translateX(${moveAmount}px)`;
 }
