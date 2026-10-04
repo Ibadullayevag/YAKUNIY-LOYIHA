@@ -168,6 +168,7 @@ body {
   line-height: 15px;
   font-style: medium;
   margin-right: 270px;
+  padding-top: 20px;
 }
 
 .tablist {
@@ -359,4 +360,24 @@ height: 300px;
   font-size: 12px;
   line-height: 27.75px;
   color: rgba(5, 11, 32, 1);
+}
+
+
+.browse-view {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 95px;
+}
+
+.browse {
+  font-size: 40px;
+  line-height: 40px;
+  margin-left: 260px;
+}
+.view {
+  font-size: 15px;
+  line-height: 15px;
+  font-style: medium;
+  margin-right: 270px;
+  padding-top: 20px;
 }
