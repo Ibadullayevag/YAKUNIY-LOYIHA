@@ -317,6 +317,46 @@ body {
 }
 
 
-.why{
+.main3 {
+  width: 100%;
+  padding: 50px 60px;
+  background-color: #f7f8fa;
+  border-radius: 15px;
+  margin-left: 200px;
+}
 
+.why {
+  margin-bottom: 35px;
+}
+
+.why b {
+  font-size: 24px;
+}
+
+.texts {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.text {
+width: 311px;
+}
+
+.text img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.text h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.text p {
+  font-size: 12px;
+  line-height: 1.6;
+  color: #777;
 }
