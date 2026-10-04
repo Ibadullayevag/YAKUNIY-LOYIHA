@@ -806,3 +806,77 @@ font-size: 20px;
 
 
 /*main10*/
+
+.main10{
+  width: 95%;
+  height: 527px;
+  background-image: url(./img/main10.jpg);
+  background-position: right;
+  background-size: cover;
+  position: relative;
+
+  color: white;
+  margin-top: 100px;
+  border-radius: 16px;
+  margin-left:38px;
+}
+
+.main10-text {
+    position: absolute;
+    top: 90px;
+    left: 140px;
+    color: white;
+}
+
+.main10-text {
+    position: absolute;
+    top: 90px;
+    left: 140px;
+    color: white;
+}
+
+.main10-text h1 {
+    font-size: 32px;
+    line-height: 1.2;
+    margin: 0 0 25px 0;
+}
+
+.main10-text p {
+    font-size: 13px;
+    line-height: 22px;
+    margin: 0 0 25px 0;
+}
+
+.apps {
+    display: flex;
+    gap: 20px;
+}
+
+.app-btn {
+    width: 145px;
+    height: 45px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 15px;
+    color: #4261f5;
+}
+
+.app-btn i {
+    font-size: 22px;
+}
+
+.app-btn span {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 11px;
+    line-height: 14px;
+}
+
+.app-btn small {
+    font-size: 8px;
+}
