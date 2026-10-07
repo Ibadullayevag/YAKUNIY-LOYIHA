@@ -972,10 +972,8 @@ font-style: medium;
     width: 900px;
     height: 180px;
     margin: 0 auto;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     border-bottom: 1px solid #343b4e;
 }
