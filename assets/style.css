@@ -962,3 +962,20 @@ font-style: medium;
 
 /*main12*/
 
+.footer{
+  width: 100%;
+  background: rgba(5, 11, 32, 1);
+  color: white;
+}
+
+.footer-tepa {
+    width: 900px;
+    height: 180px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid #343b4e;
+}
