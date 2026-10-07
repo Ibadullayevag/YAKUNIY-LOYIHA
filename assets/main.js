@@ -7,6 +7,8 @@ const commentPrevBtn = document.getElementById("comment-left");
 const commentNextBtn = document.getElementById("comment-right");
 const comments = document.querySelectorAll(".comment");
 ;
+const up = document.querySelector(".up");
+const darkButton = document.querySelector(".darkmode button");
 
 const cardLength = card.length;
 
@@ -59,3 +61,17 @@ function updateComments() {
   const moveAmount = -commentIndex * (commentWidth + gap);
   commentTrack.style.transform = `translateX(${moveAmount}px)`;
 }
+
+
+//up//
+up.onclick = function () {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+};
+
+
+darkButton.onclick = function () {
+    document.body.classList.toggle("dark");
+};
