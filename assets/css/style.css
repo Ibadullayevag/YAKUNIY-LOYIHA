@@ -1278,7 +1278,7 @@ body.dark .text p {
 /*MEDIAAAAAAAA*/
 
 
-@media (max-width: 480px) {
+@media (max-width: 400px) {
   body {
     width: 100%;
     overflow-x: hidden;
