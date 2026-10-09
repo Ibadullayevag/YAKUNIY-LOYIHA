@@ -1,3 +1,6 @@
+const signInBtn = document.getElementById("signInBtn");
+const modal = document.getElementById("modal");
+ const close = document.getElementById("close");
 const track = document.querySelector(".cars");
 const prevBtn = document.getElementById("left");
 const nextBtn = document.getElementById("right");
@@ -6,12 +9,13 @@ const commentTrack = document.querySelector(".comments");
 const commentPrevBtn = document.getElementById("comment-left");
 const commentNextBtn = document.getElementById("comment-right");
 const comments = document.querySelectorAll(".comment");
-;
 const up = document.querySelector(".up");
 const darkButton = document.querySelector(".darkmode button");
 
 const cardLength = card.length;
-
+signInBtn.onclick = function ()
+ { modal.style.display = "flex"; };
+  close.onclick = function () { modal.style.display = "none"; };
 let currentIndex = 0;
 
 nextBtn.addEventListener("click", () => {
@@ -75,3 +79,15 @@ up.onclick = function () {
 darkButton.onclick = function () {
     document.body.classList.toggle("dark");
 };
+
+
+
+
+signBtn.addEventListener("click", () => {
+    signKatta.classList.toggle("active");
+});
+
+signClose.addEventListener("click", () => {
+    signKatta.classList.remove("active");
+});
+

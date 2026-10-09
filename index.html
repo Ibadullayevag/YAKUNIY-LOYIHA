@@ -37,9 +37,19 @@
           <a href="#">Pages<i class="fa-solid fa-chevron-down"></i></a>
           <a href="#">About</a>
           <a href="#">Contact</a>
-          <div>
-            <span><i class="fa-regular fa-user"></i> Sign in</span>
+          <span id="signInBtn">
+            <i class="fa-regular fa-user"></i> Sign in
+          </span>
+          <div class="modal" id="modal">
+            <div class="modal-box">
+              <span id="close">X</span>
+              <h2>Sign in</h2>
+              <input type="email" placeholder="Email" />
+              <input type="password" placeholder="Password" />
+              <button>Sign in</button>
+            </div>
           </div>
+
           <div class="darkmode">
             <button>🌑</button>
           </div>
