@@ -1277,7 +1277,6 @@ body.dark .text p {
 
 /*MEDIAAAAAAAA*/
 
-
 @media (max-width: 400px) {
   body {
     width: 100%;
@@ -1564,20 +1563,15 @@ body.dark .text p {
     max-width: 100%;
   }
 
-  
   .main7 {
-    width: calc(100% - 30px);
     height: auto;
-    min-height: 530px;
     margin: 50px 15px 0;
     padding: 30px 15px;
     background-position: center;
-  }
-
+}
   .heading b {
     font-size: 25px;
   }
-
   .heading p {
     font-size: 12px;
     line-height: 20px;
@@ -1586,7 +1580,6 @@ body.dark .text p {
   .heading br {
     display: none;
   }
-
   .inputs {
     width: 100%;
     grid-template-columns: 1fr;
@@ -1620,9 +1613,6 @@ body.dark .text p {
     margin: 25px 15px 0;
   }
 
-  .comment {
-    width: calc(100vw - 30px);
-  }
 
   .odamlar {
     display: grid;
@@ -1630,7 +1620,6 @@ body.dark .text p {
     gap: 20px 10px;
     margin: 25px 15px 0;
   }
-
   .odam {
     width: 100%;
   }
@@ -1641,7 +1630,6 @@ body.dark .text p {
     object-fit: cover;
     border-radius: 8px;
   }
-
   .odam b {
     font-size: 14px;
   }
@@ -1651,7 +1639,6 @@ body.dark .text p {
   }
 
   .main10 {
-    width: calc(100% - 30px);
     height: 450px;
     margin: 50px 15px 0;
     background-position: center;
@@ -1701,7 +1688,6 @@ body.dark .text p {
     line-height: 24px;
   }
 
-  /* FOOTER */
   .footer {
     margin-top: 50px;
   }
