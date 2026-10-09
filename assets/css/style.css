@@ -1753,8 +1753,11 @@ body.dark .text p {
     flex-wrap: wrap;
   }
 
-  .footer-bottom > div {
+  .footer-bottom>div {
     flex-wrap: wrap;
     gap: 10px;
   }
 }
+
+
+/*VANIHOYAT TUGADI ENG KOP YAZGAN KODIM BOLDI BI HALI HOME-5 HAM BOR */
