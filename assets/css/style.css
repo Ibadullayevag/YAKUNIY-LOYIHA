@@ -397,7 +397,6 @@ body {
 .text img {
   width: 80px;
   height: 80px;
-  object-fit: contain;
   margin-bottom: 15px;
 }
 
@@ -731,14 +730,14 @@ body {
   width: 328px;
   height: 214px;
   flex-shrink: 0;
-  background-color: #f9fafc;
+  background-color: rgb(245, 241, 241);
   border-radius: 8px;
   padding: 20px;
 }
 
 .comment span {
   font-size: 11px;
-  color: #777b8a;
+  color: rgb(83, 82, 81);
 }
 
 .comment span i {
@@ -749,13 +748,13 @@ body {
   display: block;
   margin-top: 12px;
   font-size: 16px;
-  color: rgba(5, 11, 32, 1);
+  color: rgb(5, 11, 32);
 }
 
 .comment p {
   font-size: 10px;
   line-height: 17px;
-  color: #4b5563;
+  color: rgb(52, 49, 49);
   margin-top: 8px;
 }
 
@@ -767,11 +766,6 @@ body {
 
 #star {
   color: #777;
-}
-
-.comment span:nth-child(2) i {
-  color: rgba(108, 108, 131, 1);
-  margin-left: 10px;
 }
 
 /*main9*/
@@ -1011,7 +1005,7 @@ body {
   width: 211px;
   height: 46px;
   padding: 0 12px;
-  border: 1px solid #626979;
+  border: 1px solid rgb(185, 184, 184);
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -1032,7 +1026,7 @@ body {
 }
 
 .tepa-right p {
-  color: #aeb3c2;
+  color: rgba(255, 255, 255, 1);
   font-size: 15px;
   margin-bottom: 10px;
 }
@@ -1055,7 +1049,7 @@ body {
   height: 49px;
   border: none;
   border-radius: 5px;
-  background: #4561eb;
+  background: rgba(64, 95, 242, 1);
   color: white;
   font-size: 12px;
   cursor: pointer;
@@ -1147,7 +1141,7 @@ body {
 .footer-bottom {
   width: 100%;
   height: 55px;
-  border-top: 1px solid #252c3d;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1155,16 +1149,16 @@ body {
 }
 
 .footer-bottom p {
-  color: #aeb3c2;
-  font-size: 9px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 12px;
 }
 
 .footer-bottom > div {
   display: flex;
   align-items: center;
   gap: 12px;
-  color: #aeb3c2;
-  font-size: 9px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 12px;
 }
 
 .footer-bottom button {
@@ -1277,7 +1271,7 @@ body.dark .text p {
 
 /*MEDIAAAAAAAA*/
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   body {
     width: 100%;
     overflow-x: hidden;
@@ -1568,7 +1562,7 @@ body.dark .text p {
     margin: 50px 15px 0;
     padding: 30px 15px;
     background-position: center;
-}
+  }
   .heading b {
     font-size: 25px;
   }
@@ -1612,7 +1606,6 @@ body.dark .text p {
   .comments-ota-div {
     margin: 25px 15px 0;
   }
-
 
   .odamlar {
     display: grid;
@@ -1753,11 +1746,10 @@ body.dark .text p {
     flex-wrap: wrap;
   }
 
-  .footer-bottom>div {
+  .footer-bottom > div {
     flex-wrap: wrap;
     gap: 10px;
   }
 }
-
 
 /*VANIHOYAT TUGADI ENG KOP YAZGAN KODIM BOLDI BI HALI HOME-5 HAM BOR */
