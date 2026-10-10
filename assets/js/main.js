@@ -12,10 +12,16 @@ const comments = document.querySelectorAll(".comment");
 const up = document.querySelector(".up");
 const darkButton = document.querySelector(".darkmode button");
 
-const cardLength = card.length;
+//oyna//
+
 signInBtn.onclick = function ()
  { modal.style.display = "flex"; };
-  close.onclick = function () { modal.style.display = "none"; };
+  close.onclick = function () 
+  { modal.style.display = "none"; };
+
+
+  //cards/
+const cardLength = card.length;
 let currentIndex = 0;
 
 nextBtn.addEventListener("click", () => {
@@ -40,7 +46,7 @@ function updateCarousel() {
 }
 
 
-
+//komentla//
 const commentLength = comments.length;
 
 let commentIndex = 0;
@@ -68,6 +74,7 @@ function updateComments() {
 
 
 //up//
+
 up.onclick = function () {
     window.scrollTo({
         top: 0,
@@ -75,7 +82,7 @@ up.onclick = function () {
     });
 };
 
-
+//darkmod/
 darkButton.onclick = function () {
     document.body.classList.toggle("dark");
 };
@@ -83,11 +90,5 @@ darkButton.onclick = function () {
 
 
 
-signBtn.addEventListener("click", () => {
-    signKatta.classList.toggle("active");
-});
 
-signClose.addEventListener("click", () => {
-    signKatta.classList.remove("active");
-});
 

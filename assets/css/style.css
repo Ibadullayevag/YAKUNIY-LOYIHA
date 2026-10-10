@@ -78,10 +78,10 @@ body {
   display: none;
   position: fixed;
   inset: 0;
-  background: #0008;
+
   justify-content: center;
   align-items: center;
-  z-index: 9999;
+
 }
 
 .modal-box {
@@ -297,7 +297,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #373848;
+  background-color: rgba(55, 57, 72, 1);
   color: white;
 }
 
@@ -313,7 +313,7 @@ body {
   font-size: 11px;
   color: rgba(255, 255, 255, 1);
   overflow: hidden;
-  text-overflow: ellipsis;
+  
 }
 
 .tezlik-benzin {
