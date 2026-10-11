@@ -78,7 +78,7 @@ body {
   display: none;
   position: fixed;
   inset: 0;
-
+z-index: 9999;
   justify-content: center;
   align-items: center;
 
@@ -1271,7 +1271,7 @@ body.dark .text p {
 
 /*MEDIAAAAAAAA*/
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 480px) {
   body {
     width: 100%;
     overflow-x: hidden;
