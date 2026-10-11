@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/style2.css" />
     <link
@@ -15,8 +15,147 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap"
       rel="stylesheet"
     />
-</head>
-<body>
+  </head>
+  <body>
+    <div class="main">
+      <nav class="navbar">
+        <div class="navbar-left">
+          <div>
+            <img src="./assets/img/carhut.png" alt="" />
+          </div>
+        </div>
+
+        <div class="navbar-middle">
+          <a href="#">Home<i class="fa-solid fa-chevron-down"></i></a>
+          <a href="#">Listings <i class="fa-solid fa-chevron-down"></i></a>
+          <a href="#">Blog<i class="fa-solid fa-chevron-down"></i></a>
+          <a href="#">Pages<i class="fa-solid fa-chevron-down"></i></a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <span id="signInBtn">
+            <i class="fa-regular fa-user"></i> Sign in
+          </span>
+          <div class="modal" id="modal">
+            <div class="modal-box">
+              <span id="close">X</span>
+              <h2>Sign in</h2>
+              <input type="email" placeholder="Email" />
+              <input type="password" placeholder="Password" />
+              <button>Sign in</button>
+            </div>
+          </div>
+
+          <div class="darkmode">
+            <button>🌑</button>
+          </div>
+        </div>
+        <div class="navbar-right">
+          <div>
+            <button>Submit Listing</button>
+          </div>
+        </div>
+      </nav>
+
+      <div class="tabpanel">
+        <div class="b-div1">
+          <p>$35,000</p>
+        </div>
+        <div class="b-div2">
+          <p>Mercedes-Benz, C Class</p>
+        </div>
+        <div class="spans">
+          <span
+            ><i class="fa-solid fa-gauge"></i>
+            <span>50 Miles</span>
+            </span
+          >
+          <span>
+            <i class="fa-solid fa-gas-pump"></i>
+            <span>Petrol</span>
+          </span>
+          <span>
+            <i class="fa-solid fa-code-branch"></i>
+            <span>Automatic</span>
+          </span>
+        </div>
+
+        <button>
+              Learn More<i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
+      </div>
+
+        <div class="btns-right-left">
+          <button class="chevron-left">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button class="chevron-right">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+
+    </div>
+
+    <div class="main2">
+       <div class="browse-view">
+        <div class="browse">
+          <b>Browse by Type</b>
+        </div>
+        <div class="view">
+          <p>View All<i class="fa-solid fa-arrow-up-right-from-square"></i></p>
+        </div>
+      </div>
+
+
+      
+      <div class="six-cars">
+        <div class="car1">
+          <i class="fa-solid fa-car-side"></i>
+          <p>SUV</p>
+        </div>
+        <div class="car1">
+          <i class="fa-solid fa-car-side"></i>
+          <p>Sedan</p>
+        </div>
+        <div class="car1">
+          <i class="fa-solid fa-car-side"></i>
+          <p>Hatchback</p>
+        </div>
+        <div class="car1">
+          <i class="fa-solid fa-car-side"></i>
+          <p>Coupe</p>
+        </div>
+        <div class="car1">
+          <i class="fa-solid fa-car-side"></i>
+          <p>Hybrid</p>
+        </div>
+        <div class="car1">
+          <i class="fa-solid fa-car-side"></i>
+          <p>Convertible</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="main3">
+            <div class="explore-view">
+        <div class="explore">
+          <b>Explore All Vehicles</b>
+        </div>
+        <div class="view">
+          <p>View All<i class="fa-solid fa-arrow-up-right-from-square"></i></p>
+        </div>
+      </div>
+
+      <div class="tablist">
+        <div class="benom">
+          <b>Recent Cars</b>
+          <div class="chiziq"></div>
+        </div>
+        <div class="newcars"><b>Featured Cars</b></div>
+        <div class="usedcars"><b>Popular Cars</b></div>
+      </div>
+      <div class="uzun-chiziq"></div>
+    </div>
+
     <script src="./assets/js/main2.js"></script>
-</body>
+  </body>
 </html>

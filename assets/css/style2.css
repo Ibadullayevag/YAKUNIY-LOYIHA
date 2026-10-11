@@ -1,0 +1,297 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.main {
+  width: 100%;
+  height: 730px;
+  background-image: url(/assets/img/home5.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+.navbar {
+  width: 100%;
+  height: 80px;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  color: white;
+}
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar-left img {
+  width: 168px;
+  height: 112px;
+  display: block;
+}
+
+
+
+.navbar-middle {
+  display: flex;
+  align-items: center;
+  margin-left: 300px;
+  gap: 35px;
+}
+
+.navbar-middle a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 27.75px;
+}
+
+.navbar-middle i {
+  font-size: 7px;
+  margin-left: 5px;
+}
+.navbar-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 25px;
+}
+
+.navbar-middle span i {
+  font-size: 15px;
+  margin-right: 5px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.modal-box {
+  background: white;
+  padding: 25px;
+  width: 300px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.modal-box h2 {
+  margin-bottom: 20px;
+  color: black;
+}
+
+.modal-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.modal-box button {
+  width: 100%;
+  padding: 10px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#close {
+  position: absolute;
+  right: 15px;
+  top: 5px;
+  font-size: 25px;
+  cursor: pointer;
+  color: black;
+}
+
+#signInBtn {
+  cursor: pointer;
+}
+
+.darkmode button {
+  background: transparent;
+  border: 1px solid white;
+  padding: 5px 8px;
+  border-radius: 15px;
+}
+
+.navbar-right button {
+  padding: 13px 25px;
+  border: 1px solid white;
+  border-radius: 16px;
+  background: transparent;
+  color: white;
+  font-size: 13px;
+  width: 142px;
+  height: 42px;
+}
+
+.tabpanel{
+      position: absolute;
+  left: 17%;
+  top: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.b-div1 p {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.b-div2 p {
+  font-size: 70px;
+  line-height: 84px;
+}
+
+.spans{
+    color: rgba(255, 255, 255, 1);
+}
+.tabpanel button {
+  width: 155.16px;
+  height: 50.65px;
+  border: none;
+  border-radius: 16px;
+  background: white;
+  color: #050b20;
+
+  padding: 10px;
+  font-size: 15px;
+  line-height: 27.25px;
+  
+}
+
+.btns-right-left button{
+    top: 55%;
+    position: absolute;
+}
+.chevron-left{
+    margin-left: 40px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    border: none;
+}
+.chevron-right{
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    margin-left: 1460px;
+    border: none;
+}
+
+
+/*main2*/
+
+.browse-view {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 95px;
+}
+
+.browse {
+  font-size: 40px;
+  line-height: 40px;
+  margin-left: 260px;
+}
+.view {
+  font-size: 15px;
+  line-height: 15px;
+  font-style: medium;
+  margin-right: 230px;
+  padding-top: 20px;
+}
+
+.six-cars {
+  margin-top: 40px;
+  margin-left: 235px;
+  display: flex;
+  align-items: center;
+}
+.car1 {
+    width: 155px;
+    height: 130px;
+  border: 1px solid rgb(243, 237, 237);
+  padding: 17px 30px 17px 30px;
+  text-align: center;
+  font-style: bold;
+  margin: 13px;
+  border-radius: 12px;
+}
+
+.car1 i {
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+/*main3*/
+
+.explore-view {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 95px;
+}
+
+.explore {
+  font-size: 40px;
+  line-height: 40px;
+  margin-left: 260px;
+}
+.view {
+  font-size: 15px;
+  line-height: 15px;
+  font-style: medium;
+  margin-right: 270px;
+  padding-top: 20px;
+}
+
+.tablist {
+  display: flex;
+  gap: 25px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  margin-left: 260px;
+}
+
+.benom,
+.newcars,
+.usedcars {
+  font-size: 11px;
+  color: rgba(5, 11, 32, 1);
+}
+
+.benom {
+  color: rgba(5, 11, 32, 1);
+}
+
+.chiziq {
+  width: 55px;
+  height: 2px;
+  background-color: rgba(64, 95, 242, 1);
+  margin-top: 10px;
+}
+
+.uzun-chiziq {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(185, 184, 184);
+  margin-top: -32px;
+  width: 100%;
+  height: 1px;
+}

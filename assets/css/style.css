@@ -78,7 +78,6 @@ body {
   display: none;
   position: fixed;
   inset: 0;
-z-index: 9999;
   justify-content: center;
   align-items: center;
 
@@ -368,6 +367,9 @@ z-index: 9999;
   border: 1px solid rgb(203, 202, 202);
   border-radius: 18px;
 }
+
+
+/*main3*/
 
 .main3 {
   padding: 50px 60px;
