@@ -1310,9 +1310,7 @@ body.dark .text p {
     display: none;
   }
 
-  .navbar-right {
-    display: none;
-  }
+ 
 
   .navbar-middle #signInBtn {
     font-size: 12px;
