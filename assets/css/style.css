@@ -302,7 +302,6 @@ body {
 }
 
 .tcross p {
-  margin: 0 0 7px 0;
   font-size: 16px;
   font-weight: 500;
   color: white;
@@ -1270,7 +1269,7 @@ body.dark .text p {
 
 /*MEDIAAAAAAAA*/
 
-@media only screen and (max-width: 480px) {
+@media  (max-width: 600px) {
   body {
     width: 100%;
     overflow-x: hidden;
