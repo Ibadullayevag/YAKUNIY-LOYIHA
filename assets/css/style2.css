@@ -300,9 +300,10 @@ body {
 
 .car-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    width: 100%;
+    grid-template-columns: auto auto auto auto;
+margin-left: 260px;
+margin-right: 150px;
+
 }
 .car-box {
     width: 235px;
@@ -311,6 +312,7 @@ body {
     overflow: hidden;
     background-color: white;
     font-family: Arial, sans-serif;
+    margin-top: 50px;
 }
 
 .img {
