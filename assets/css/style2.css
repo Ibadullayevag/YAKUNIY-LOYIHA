@@ -1445,7 +1445,6 @@ body.dark .text p {
     .main6-car-container {
         display: flex;
         gap: 15px;
-        overflow-x: auto;
         padding-bottom: 10px;
     }
 
