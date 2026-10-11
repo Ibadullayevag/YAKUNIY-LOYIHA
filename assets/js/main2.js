@@ -10,6 +10,7 @@ const commentPrevBtn = document.getElementById("comment-left");
 const commentNextBtn = document.getElementById("comment-right");
 const comments = document.querySelectorAll(".comment");
 const up = document.querySelector(".up");
+const darkButton = document.querySelector(".darkmode button");
 
 
 
@@ -21,7 +22,7 @@ signInBtn.onclick = function ()
   { modal.style.display = "none"; };
 
 
-  
+
 //cards/
 const cardLength = card.length;
 let currentIndex = 0;
@@ -81,4 +82,10 @@ up.onclick = function () {
         top: 0,
         behavior: "smooth"
     });
+};
+
+
+//darkmod/
+darkButton.onclick = function () {
+    document.body.classList.toggle("dark");
 };

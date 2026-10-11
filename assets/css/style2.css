@@ -1046,3 +1046,113 @@ margin-right: 150px;
   justify-content: center;
   cursor: pointer;
 }
+
+
+/*DARKMODE*/
+.darkmode button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+body.dark {
+  background-color: black;
+  color: white;
+}
+
+
+
+body.dark .main3 {
+  background-color: black;
+  color: white;
+}
+
+body.dark .why {
+  color: white;
+}
+
+body.dark .text h3 {
+  color: white;
+}
+
+body.dark .text p {
+  color: white;
+}
+
+.dark .main5 {
+  background-color: black;
+  color: white;
+}
+.dark .benom {
+  color: white;
+}
+.dark .newcars {
+  color: white;
+}
+.dark .usedcars {
+  color: white;
+}
+.dark .main5 h2,
+.dark .main5 h3,
+.dark .main5 p,
+.dark .main5 b {
+  color: white;
+}
+.dark .main5 .card {
+  background-color: black;
+  color: white;
+}
+
+.dark .main8 {
+  background-color: black;
+  color: white;
+}
+
+.dark .main8 .what b,
+.dark .main8 .rated p,
+.dark .main8 .comment b,
+.dark .main8 .comment p,
+.dark .main8 .comment h4 {
+  color: white;
+}
+
+.dark .main8 .comment {
+  background-color: rgb(29, 28, 28);
+  color: white;
+}
+.dark .car-types {
+  color: black;
+}
+.dark .main8 .comment span {
+  color: white;
+}
+
+.dark .main8 .comment i {
+  color: white;
+}
+
+.dark .main8 .strelkalar button {
+  background-color: black;
+  color: white;
+  border-color: #555;
+}
+
+.dark .main13 .footer{
+    background-color: black;
+    color: white;
+}
+
+.dark .footer-qator a{
+    color: white;
+}
+
+.dark .tepa-left p{
+    color: white;
+}
+.dark .footer-bottom p, span{
+    color: white;
+}
+.dark .social i {
+    color: white;
+}
