@@ -307,7 +307,7 @@ margin-right: 150px;
 }
 .car-box {
     width: 235px;
-    border: 1px solid #e8e8e8;
+    border: 1px solid white;
     border-radius: 12px;
     overflow: hidden;
     background-color: white;
@@ -357,13 +357,13 @@ margin-right: 150px;
 
 .car-info h3 {
     font-size: 14px;
-    color: #101828;
+    color: black;
     margin: 0 0 5px;
 }
 
 .car-info p {
     font-size: 10px;
-    color: #555;
+    color: rgb(94, 91, 91);
     
   
 }
@@ -381,7 +381,7 @@ margin-right: 150px;
     align-items: center;
     gap: 6px;
     font-size: 10px;
-    color: #343b4a;
+    color: black;
 }
 
 .car-haqida i {
@@ -402,7 +402,7 @@ margin-right: 150px;
 
 .car-bottom a {
     font-size: 10px;
-    color: #526dff;
+    color: rgba(64, 95, 242, 1);
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -420,3 +420,89 @@ margin-right: 150px;
     background-color: rgba(64, 95, 242, 1);
 }
 
+
+/*main4*/
+
+
+.main4{
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.main4-text{
+    width: 622px;
+    margin-left: 260px;
+}
+.main4-text b{
+    font-size: 40px;
+}
+.main4-text p{
+    font-size: 15px;
+    margin-top: 30px;
+}
+.main4-text button{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    border-radius: 12px;
+    margin-top: 30px;
+  
+}
+.main4-img{
+    margin-right: 190px;
+}
+.main4-img img{
+    width: 602px;
+    height: 500px;
+    
+}
+
+
+/*main5*/
+
+
+.main5 {
+  padding: 50px 60px;
+  border-radius: 15px;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.why {
+  margin-bottom: 35px;
+}
+
+.why b {
+  font-size: 24px;
+}
+
+.texts {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.text {
+  width: 311px;
+  height: 300px;
+}
+
+.text img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 15px;
+}
+
+.text h3 {
+  font-size: 17px;
+  font-style: medium;
+  margin-bottom: 10px;
+}
+
+.text p {
+  font-size: 12px;
+  line-height: 27.75px;
+  color: rgba(5, 11, 32, 1);
+}
