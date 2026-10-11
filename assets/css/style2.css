@@ -1487,7 +1487,6 @@ body.dark .text p {
     .comments {
         display: flex;
         gap: 15px;
-        overflow-x: auto;
         padding-bottom: 10px;
     }
 
