@@ -682,7 +682,7 @@ margin-right: 150px;
   font-size: 14px;
   color: rgba(5, 11, 32, 1);
 }
-
+/*main9*/
 .main9 {
     
     height: 140px;
@@ -711,6 +711,7 @@ margin-right: 150px;
     border-radius: 12px;
     display: flex;
     justify-content: center;
+    color: black;
     align-items: center;
     font-size: 17px;
 }
@@ -1156,3 +1157,14 @@ body.dark .text p {
 .dark .social i {
     color: white;
 }
+
+
+
+
+  
+
+
+
+
+
+
