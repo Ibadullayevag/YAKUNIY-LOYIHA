@@ -76,6 +76,7 @@ body {
   display: none;
   position: fixed;
   inset: 0;
+  z-index: 1;
   justify-content: center;
   align-items: center;
 
@@ -505,4 +506,543 @@ margin-right: 150px;
   font-size: 12px;
   line-height: 27.75px;
   color: rgba(5, 11, 32, 1);
+}
+
+
+/*main6*/
+.special-view {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 95px;
+}
+
+.special {
+  font-size: 40px;
+  line-height: 40px;
+  margin-left: 260px;
+}
+.view {
+  font-size: 15px;
+  line-height: 15px;
+  font-style: medium;
+  margin-right: 230px;
+  padding-top: 20px;
+}
+.ota-div-container{
+      margin: 40px 250px;
+  width: 1270px;
+  overflow: hidden;
+}
+.main6-car-container {
+  width: 100%;
+  display: flex;
+  gap: 24px;
+  padding: 0;
+  margin: 0;
+  transition: transform 0.5s;
+
+}
+.main6-car-box {
+    width: 255px;
+    min-width: 255px;
+    height: 320px;
+    border: 1px solid rgb(233, 227, 227);
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+   
+}
+
+.strelkalar {
+  margin-left: 245px;
+}
+
+.strelkalar button {
+  margin-top: 30px;
+  padding: 10px 16px;
+  border: 1px solid rgb(203, 202, 202);
+  border-radius: 18px;
+}
+
+/*main7*/
+
+.what-rated {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 115px;
+}
+
+.what {
+  font-size: 40px;
+  line-height: 40px;
+  margin-left: 260px;
+}
+.rated {
+  font-size: 15px;
+  line-height: 15px;
+  font-style: medium;
+  margin-right: 210px;
+  padding-top: 20px;
+}
+
+.comments-ota-div {
+  margin-left: 230px;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.comments {
+  display: flex;
+  gap: 16px;
+  transition: transform 0.5s;
+}
+
+.comment {
+  width: 328px;
+  height: 214px;
+  flex-shrink: 0;
+  background-color: rgb(245, 241, 241);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.comment span {
+  font-size: 11px;
+  color: rgb(83, 82, 81);
+}
+
+.comment span i {
+  color: #00b67a;
+}
+
+.comment b {
+  display: block;
+  margin-top: 12px;
+  font-size: 16px;
+  color: rgb(5, 11, 32);
+}
+
+.comment p {
+  font-size: 10px;
+  line-height: 17px;
+  color: rgb(52, 49, 49);
+  margin-top: 8px;
+}
+
+.comment h4 {
+  font-size: 14px;
+  color: rgba(5, 11, 32, 1);
+  margin-top: 12px;
+}
+
+#star {
+  color: #777;
+}
+
+/*main8*/
+.our-view {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 115px;
+}
+
+.our {
+  font-size: 40px;
+  line-height: 40px;
+  margin-left: 260px;
+}
+.vieww {
+  font-size: 15px;
+  line-height: 15px;
+  font-style: medium;
+  margin-right: 210px;
+  padding-top: 20px;
+}
+
+.odamlar {
+  display: flex;
+  margin-left: 230px;
+  margin-top: 30px;
+}
+
+.odam {
+  width: 285px;
+}
+.odam img {
+  width: 267px;
+  height: 328px;
+}
+
+.odam b {
+  font-size: 20px;
+}
+.odam p {
+  font-size: 14px;
+  color: rgba(5, 11, 32, 1);
+}
+
+.main9 {
+    
+    height: 140px;
+  margin-top: 70px;
+  margin-left: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main9 h5 {
+    font-size: 40px;
+}
+
+.main9 .span-lar {
+    height: 70px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.main9 .span-lar span {
+    width: 148px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+
+
+/*main10*/
+
+.main10 {
+  width: 95%;
+  height: 527px;
+  background-image: url(/assets/img/main10two.jpg);
+  background-position: right;
+  background-size: cover;
+  position: relative;
+
+  color: white;
+  margin-top: 100px;
+  border-radius: 16px;
+  margin-left: 38px;
+}
+
+.main10-text {
+  position: absolute;
+  top: 140px;
+  left: 140px;
+  color: black;
+}
+
+
+
+.main10-text h1 {
+  font-size: 40px;
+  line-height: 1.2;
+  margin: 0 0 25px 0;
+}
+
+.main10-text p {
+  font-size: 13px;
+  line-height: 22px;
+  margin: 0 0 25px 0;
+}
+
+.apps {
+  display: flex;
+  gap: 20px;
+}
+
+.app-btn {
+  width: 145px;
+  height: 45px;
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 15px;
+  color: white;
+}
+
+.app-btn i {
+  font-size: 22px;
+}
+
+.app-btn span {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 11px;
+  line-height: 14px;
+}
+
+.app-btn small {
+  font-size: 8px;
+}
+
+
+
+
+/*main11*/
+
+.explore-show {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 115px;
+}
+
+.explore2 {
+  font-size: 40px;
+  line-height: 40px;
+  margin-left: 260px;
+}
+.show {
+  font-size: 15px;
+  line-height: 15px;
+  font-style: medium;
+  margin-right: 210px;
+  padding-top: 20px;
+}
+
+.show i {
+  margin-left: 10px;
+}
+
+.premium-cars {
+  margin-top: 40px;
+  margin-left: 235px;
+  display: flex;
+  align-items: center;
+}
+.premium-car {
+  border: 1px solid rgba(233, 233, 233, 1);
+  padding: 17px 30px 17px 30px;
+  text-align: center;
+  font-style: bold;
+  margin: 13px;
+  border-radius: 12px;
+}
+
+
+/*main12*/
+
+.main12{
+      width: 100%;
+  height: 527px;
+  background-image: url(/assets/img/main12.jpg);
+  background-position: right;
+  background-size: cover;
+  position: relative;
+
+  color: white;
+  margin-top: 100px;
+
+}
+
+.main12-text{
+    position: absolute;
+    top: 30%;
+    margin-left: 230px;
+    font-size: 70px;
+    line-height: 105px;
+    font-style: medium;
+}
+
+.main12-text button{
+    width: 290px;
+    height: 60px;
+    background-color: transparent;
+    border-radius: 12px;
+    color: white;
+}
+
+/*main13*/
+
+.footer {
+  width: 100%;
+
+  background:white;
+  color: black;
+  margin-top: 100px;
+}
+
+.footer-tepa {
+  width: 900px;
+  height: 357px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+.tepa-left {
+  width: 500px;
+}
+
+.tepa-left img {
+  width: 148px;
+  height: 100px;
+}
+
+.tepa-left p {
+  width: 360px;
+  color: black;
+  font-size: 15px;
+  line-height: 15px;
+  margin-bottom: 12px;
+}
+
+.contact-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.contact-btn {
+  width: 211px;
+  height: 46px;
+  padding: 0 12px;
+  border: 1px solid rgb(185, 184, 184);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 13px;
+  color: black;
+  margin-top: 10px;
+}
+
+.tepa-right {
+  width: 350px;
+  display: flex;
+}
+
+
+
+.tepa-right input {
+  width: 340px;
+  height: 49px;
+  background: white;
+  color:rgb(189, 184, 184);
+  border: 1px solid rgb(225, 225, 225);
+  outline: none;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.tepa-right button {
+  width: 100px;
+  height: 49px;
+  border: none;
+  border-radius: 5px;
+  background: black;
+  color:white;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 22px;
+}
+
+.footer-orta {
+  width: 100%;
+  height: 325px;
+}
+
+.linklar {
+  width: 900px;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 27px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-qator h3 {
+  font-size: 10px;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+
+.footer-qator a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  margin-bottom: 11px;
+}
+
+.mobile h3 {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+
+.mobile {
+  width: 165px;
+}
+.hafta p{
+    font-size: 9px;
+}
+
+
+.connect {
+  margin-top: 15px;
+  font-size: 10px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.social i {
+  color: black;
+  font-size: 11px;
+}
+
+.footer-bottom {
+  width: 100%;
+  height: 55px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 60px;
+}
+
+.footer-bottom p {
+  color: black;
+  font-size: 12px;
+}
+
+.footer-bottom > div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: black;
+  font-size: 12px;
+}
+
+.footer-bottom button {
+  width: 32px;
+  height: 32px;
+  margin-left: 25px;
+  border: none;
+  border-radius: 50%;
+  background: #4561eb;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
